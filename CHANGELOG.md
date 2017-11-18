@@ -1,3 +1,8 @@
+### 1.0.0 2017-11-18
+
+- Add .Net Standard 2.0 Support
+- Add Sample Console applications for Both .Net Framework 4.5.2 and .Net Core 2.0
+
 ### 0.10 2017-04-11
 
  * Notification report

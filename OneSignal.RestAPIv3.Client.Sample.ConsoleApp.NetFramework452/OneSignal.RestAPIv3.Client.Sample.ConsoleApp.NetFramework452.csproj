@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net452</TargetFramework>
+    <AssemblyName>OneSignal.Client.Sample.ConsoleApp.NetFramework452</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OneSignal.RestAPIv3.Client\OneSignal.RestAPIv3.Client.csproj" />
+  </ItemGroup>
+
+</Project>
