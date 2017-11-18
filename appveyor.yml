@@ -3,7 +3,7 @@ version: 1.0.0.{build}
 configuration: Release
 
 before_build:
-  - nuget restore OneSignal.CSharp.SDK.sln
+  - nuget restore OneSignal.RestAPIv3.Client.sln
 
 build:
   verbosity: minimal
