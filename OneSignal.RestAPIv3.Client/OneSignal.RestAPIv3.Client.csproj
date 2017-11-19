@@ -5,6 +5,21 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IncludeSymbols>true</IncludeSymbols>
     <IncludeSource>true</IncludeSource>
+    <Version>1.0.3</Version>
+    <PackageIconUrl>https://raw.githubusercontent.com/Alegrowin/OneSignal.RestAPIv3.Client/master/OneSignal.RestAPIv3.Client/onesignal_large_icon_default.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/Alegrowin/OneSignal.RestAPIv3.Client</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Alegrowin/OneSignal.RestAPIv3.Client/blob/master/LICENSE</PackageLicenseUrl>
+    <Description>One signal client targeting .Net Framework 4.5.2 and .Net Standard for .Net Core 2.0+ support.
+
+Feel Free to contribute! :)</Description>
+    <RepositoryUrl>https://github.com/Alegrowin/OneSignal.RestAPIv3.Client</RepositoryUrl>
+    <PackageTags>OneSignal .NetStandard2.0 .NetCore2.0 .NetFramework452 net452 netstandard2.0 netcoreapp2.0 Client MultiFramework</PackageTags>
+    <PackageReleaseNotes>Now targets multi Frameworks. (.Net Standard 2.0 and .Net Framewok 4.5.2)
+</PackageReleaseNotes>
+    <ApplicationIcon />
+    <Win32Resource />
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+    <FileVersion>1.0.3.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
