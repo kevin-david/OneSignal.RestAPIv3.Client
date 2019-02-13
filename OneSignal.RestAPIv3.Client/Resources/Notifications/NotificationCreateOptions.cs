@@ -59,6 +59,12 @@ namespace OneSignal.RestAPIv3.Client.Resources.Notifications
         public IList<string> IncludePlayerIds { get; set; }
 
         /// <summary><br/>
+        /// Send based on OneSignal custom user Ids  <br/>
+        /// </summary>
+        [JsonProperty("include_external_user_ids")]
+        public IList<string> IncludeExternalUserIds { get; set; }
+
+        /// <summary><br/>
         /// The segment names you want to target. <br/>
         /// Users in these segments will receive a notification. <br/>
         /// This targeting parameter is only compatible with excluded_segments.<br/>
