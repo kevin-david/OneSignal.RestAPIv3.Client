@@ -20,6 +20,7 @@ Feel Free to contribute! :)</Description>
     <Win32Resource />
     <AssemblyVersion>1.0.3.0</AssemblyVersion>
     <FileVersion>1.0.3.0</FileVersion>
+    <PackageId>OneSignal.RestAPIv3.Client</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
