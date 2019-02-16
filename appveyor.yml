@@ -1,13 +1,13 @@
-version: 1.0.0.{build}
+version: 1.0.4.{build}
 image: Visual Studio 2017
 
 before_build:
-  - nuget restore OneSignal.RestAPIv3.Client.sln
+    - nuget restore OneSignal.RestAPIv3.Client.sln
 
 build:
-  project: OneSignal.RestAPIv3.Client.sln
-  parallel: true
-  verbosity: minimal
+    project: OneSignal.RestAPIv3.Client.sln
+    parallel: true
+    verbosity: minimal
 
 configuration: Release
 
