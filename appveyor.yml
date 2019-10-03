@@ -9,6 +9,8 @@ build:
     parallel: true
     verbosity: minimal
 
+artifacts:
+  - path: .\OneSignal.RestAPIv3.Client\bin\Release\*.nupkg
 configuration: Release
 
 test: off
